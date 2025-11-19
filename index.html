@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>سیستم مدیریت موتور سکیل ها</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" href="/global.css">
+  <link rel="stylesheet" href="./global.css">
  </head>
  <body class="h-screen" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #667eea 50%, #764ba2 75%, #667eea 100%);">
   <div class="h-screen p-6">
@@ -34,7 +34,7 @@
 
     <div id="user-dropdown" class="absolute hidden z-50 w-48 bg-white rounded-lg shadow-lg">
       <div class="py-2">
-        <button onclick="navigateTo('/profile-settings.html')" class="w-full text-right px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded">تنظیمات پروفایل</button>
+        <button onclick="navigateTo('./profile-settings.html')" class="w-full text-right px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded">تنظیمات پروفایل</button>
         <button id="logout-btn" onclick="logout()" class="w-full text-right px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded">خروج</button>
       </div>
     </div>
@@ -202,8 +202,9 @@
     </div>
   </footer>
   <script src="googleSheets.js"></script>
-  <script src="/index.js"></script>
+  <script src="./index.js"></script>
  </body>
 
 </html>
+
 
